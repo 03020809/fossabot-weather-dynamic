@@ -3,9 +3,9 @@ const express = require('express');
 const app = express();
 
 // Hardcode your coords or accept ?lat=&lon= as params
-const DEFAULT_LAT = 43.02;  // <-- change to your location
-const DEFAULT_LON = -78.87;
-const LOCATION_NAME = "🌆North Tonawanda, NY🗽"; // <-- your city name
+const DEFAULT_LAT = 49.49831421;  // <-- change to your location
+const DEFAULT_LON = 8.476372375853645;
+const LOCATION_NAME = "🌃 Mannheim, BW 🌇 "; // <-- your city name
 
 app.get('/weather', async (req, res) => {
   const lat = req.query.lat || DEFAULT_LAT;
@@ -45,7 +45,7 @@ app.get('/weather', async (req, res) => {
       const rain = days.precipitation_probability_max[i];
       const code = days.weathercode[i];
       const icon = ICONS[code] || ICONS[Math.floor(code/10)*10] || '🌡️';
-      return `$(newline) ${day}: ${icon} ${hiF}°/${loF}°F ${rain}%💧${hiC}°/${loC}°C`;
+      return `$(newline) ${day}: ${icon} ${hiC}°/${loC}°C ${rain}% 💧 ${hiF}°/${loF}°F`;
     });
 
     res.send(`${name} 7-Day: ` + parts.join(' | '));
