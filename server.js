@@ -5,9 +5,10 @@ const app = express();
 
 // Hardcode your coords or accept ?lat=&lon= as params
 
-const DEFAULT_LAT = 49.49831421;  // <-- change to your location
+/*const DEFAULT_LAT = 49.49831421;  // <-- change to your location
 const DEFAULT_LON = 8.476372375853645;
 const LOCATION_NAME = "🌃 Mannheim, BW 🌇 "; // <-- your city name
+*/
 
 app.get('/weather', async (req, res) => {
   const lat = req.query.lat || DEFAULT_LAT;
@@ -18,10 +19,10 @@ app.get('/weather', async (req, res) => {
     const fetch = (await import('node-fetch')).default;
 
     
-//    const urlF = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weathercode,uv_index_max&temperature_unit=fahrenheit&forecast_days=7&timezone=auto`;
-//    const urlC = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weathercode,uv_index_max&temperature_unit=celsius&forecast_days=7&timezone=auto`;
-            const urlC =   "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&hourly=temperature_2m,relative_humidity_2m,apparent_temperature,uv_index,sunshine_duration&current=temperature_2m,relative_humidity_2m,apparent_temperature&forecast_days=1&temperature_unit=celsius";
-            const urlF =   "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&hourly=temperature_2m,relative_humidity_2m,apparent_temperature,uv_index,sunshine_duration&current=temperature_2m,relative_humidity_2m,apparent_temperature&forecast_days=1&temperature_unit=fahrenheit";
+    const urlF = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weathercode,uv_index_max&temperature_unit=fahrenheit&forecast_days=7&timezone=auto`;
+    const urlC = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weathercode,uv_index_max&temperature_unit=celsius&forecast_days=7&timezone=auto`;
+     //       const urlC =   "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&hourly=temperature_2m,relative_humidity_2m,apparent_temperature,uv_index,sunshine_duration&current=temperature_2m,relative_humidity_2m,apparent_temperature&forecast_days=1&temperature_unit=celsius";
+     //       const urlF =   "https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&hourly=temperature_2m,relative_humidity_2m,apparent_temperature,uv_index,sunshine_duration&current=temperature_2m,relative_humidity_2m,apparent_temperature&forecast_days=1&temperature_unit=fahrenheit";
 
     const [dataF, dataC] = await Promise.all([
       fetch(urlF).then(r => r.json()),
