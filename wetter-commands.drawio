@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="9VzqXHfPhy3sf3baI-xB">
-    <mxGraphModel dx="1725" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Main" id="9VzqXHfPhy3sf3baI-xB">
+    <mxGraphModel dx="1968" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,9 +179,11 @@
         <mxCell id="wv6-X-4x8dGTElKProTv-42" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="standard fossa cmd: use own service &amp;amp; change output" vertex="1">
           <mxGeometry height="60" width="120" x="30" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="wv6-X-4x8dGTElKProTv-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Combine into 1 repo/service" vertex="1">
-          <mxGeometry height="60" width="250" x="230" y="810" as="geometry" />
-        </mxCell>
+        <UserObject label="Combine into 1 repo/service" link="data:page/id,KmZ5O0uPCif7FGvLXstf" id="wv6-X-4x8dGTElKProTv-44">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1">
+            <mxGeometry height="60" width="250" x="230" y="810" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="wv6-X-4x8dGTElKProTv-55" edge="1" parent="1" source="wv6-X-4x8dGTElKProTv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wv6-X-4x8dGTElKProTv-54" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -269,6 +271,22 @@
             <mxPoint x="480" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KmZ5O0uPCif7FGvLXstf" name="Combine">
+    <mxGraphModel dx="240" dy="172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" link="data:page/id,9VzqXHfPhy3sf3baI-xB" id="oTpoHy3QYif3J8PH1kRF-1">
+          <mxCell edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;">
+            <mxGeometry height="50" relative="1" width="50" as="geometry">
+              <mxPoint x="315" y="400" as="sourcePoint" />
+              <mxPoint x="260" y="400" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
