@@ -403,7 +403,7 @@
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-17" edge="1" parent="1" source="SnuheEvKUOVHYs8Qi5aR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnuheEvKUOVHYs8Qi5aR-16" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SnuheEvKUOVHYs8Qi5aR-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="!w city +-h" vertex="1">
+        <mxCell id="SnuheEvKUOVHYs8Qi5aR-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" value="!w city +-h" vertex="1">
           <mxGeometry height="30" width="150" x="130" y="1370" as="geometry" />
         </mxCell>
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-25" edge="1" parent="1" source="SnuheEvKUOVHYs8Qi5aR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnuheEvKUOVHYs8Qi5aR-18" value="">
@@ -415,7 +415,7 @@
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#A20025,#6D8764);strokeColor=light-dark(#6F0000, #ff0080);fontColor=#ffffff;strokeWidth=4;" value="temperature_2m, apparent_temperature, relative_humidity_2m, is_day | precipitation, rain, cloud_cover | wind_direction_10m, wind_speed_10m | weather_code" vertex="1">
           <mxGeometry height="110" width="270" x="70" y="1560" as="geometry" />
         </mxCell>
-        <mxCell id="SnuheEvKUOVHYs8Qi5aR-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="!w city +-d" vertex="1">
+        <mxCell id="SnuheEvKUOVHYs8Qi5aR-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="!w city +-d" vertex="1">
           <mxGeometry height="30" width="150" x="430" y="1370" as="geometry" />
         </mxCell>
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-57" edge="1" parent="1" source="SnuheEvKUOVHYs8Qi5aR-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SnuheEvKUOVHYs8Qi5aR-56" value="">
