@@ -412,7 +412,7 @@
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=light-dark(#6F0000, #ff0080);fontColor=#ffffff;strokeWidth=5;" value="temp, feel like temp, humidity, day or night | precipitation, rain, cloud coverage | wind direction, wind speed | weather code" vertex="1">
           <mxGeometry height="90" width="265" x="72.5" y="1440" as="geometry" />
         </mxCell>
-        <mxCell id="SnuheEvKUOVHYs8Qi5aR-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#A20025,#6D8764);strokeColor=light-dark(#6F0000, #ff0080);fontColor=#ffffff;strokeWidth=4;" value="temperature_2m, apparent_temperature, relative_humidity_2m, is_day | precipitation, rain, cloud_cover | wind_direction_10m, wind_speed_10m | weather_code" vertex="1">
+        <mxCell id="SnuheEvKUOVHYs8Qi5aR-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFADCD,#FFADCD);strokeColor=light-dark(#6F0000, #ff0080);fontColor=#ffffff;strokeWidth=4;" value="temperature_2m, apparent_temperature, relative_humidity_2m, is_day | precipitation, rain, cloud_cover | wind_direction_10m, wind_speed_10m | weather_code" vertex="1">
           <mxGeometry height="110" width="270" x="70" y="1560" as="geometry" />
         </mxCell>
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="!w city +-d" vertex="1">
@@ -427,7 +427,7 @@
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=light-dark(#6F0000, #ff0080);strokeWidth=4;" value="temp, feel like temp, humidity, day or night | precipitation, rain, cloud coverage | wind direction, wind speed | weather code" vertex="1">
           <mxGeometry height="90" width="265" x="372.5" y="1440" as="geometry" />
         </mxCell>
-        <mxCell id="SnuheEvKUOVHYs8Qi5aR-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#6DB2FF,#6DB2FF);fontColor=#ffffff;strokeColor=light-dark(#6F0000, #ff0080);strokeWidth=5;" value="temperature_2m, apparent_temperature, relative_humidity_2m, is_day | &lt;br/&gt;precipitation, rain, cloud_cover | wind_direction_10m, wind_speed_10m | &lt;br/&gt;weather_code" vertex="1">
+        <mxCell id="SnuheEvKUOVHYs8Qi5aR-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFADCD,#FFADCD);fontColor=#ffffff;strokeColor=light-dark(#6F0000, #ff0080);strokeWidth=5;" value="temperature_2m, apparent_temperature, relative_humidity_2m, is_day | &lt;br/&gt;precipitation, rain, cloud_cover | wind_direction_10m, wind_speed_10m | &lt;br/&gt;weather_code" vertex="1">
           <mxGeometry height="110" width="270" x="370" y="1560" as="geometry" />
         </mxCell>
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-76" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.934;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="SnuheEvKUOVHYs8Qi5aR-55" value="">
