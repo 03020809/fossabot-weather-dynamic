@@ -428,7 +428,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="669" y="1485" />
-              <mxPoint x="669" y="1550" />
+              <mxPoint x="669" y="1540" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -437,6 +437,11 @@
         </mxCell>
         <mxCell id="SnuheEvKUOVHYs8Qi5aR-89" edge="1" parent="1" source="SnuheEvKUOVHYs8Qi5aR-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.587;entryDx=0;entryDy=0;entryPerimeter=0;" target="SnuheEvKUOVHYs8Qi5aR-86" value="">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="1615" />
+              <mxPoint x="670" y="1560" />
+              <mxPoint x="700" y="1560" />
+            </Array>
             <mxPoint x="690" y="1615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
